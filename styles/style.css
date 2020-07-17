@@ -6,3 +6,280 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.home-logo {
+  max-width: 190px;
+  margin: 10px 0 0 30px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-list li {
+  margin: 10px 10px 0 10px;
+  font-weight: 200;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.landing {
+  object-fit: cover;
+  object-position: center center;
+  height: 91vh;
+  width: 100vw;
+}
+
+.taglines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taglines div:first-child {
+  font-size: 8rem;
+  color: white;
+  margin-top: -550px;
+  margin-bottom: 35px;
+}
+
+.taglines :nth-child(n + 2) {
+  font-size: 2.9rem;
+  font-weight: 100;
+  color: rgb(217, 214, 205);
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 100px 0;
+}
+
+.headline {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.horizontal-line {
+  border: 2px solid rgb(83, 173, 112);
+}
+
+.feature-sign-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 70px;
+}
+
+.icon {
+  height: 90px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.feature {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: rgb(83, 173, 112);
+  margin-bottom: 30px;
+}
+
+.feature-tag {
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(151, 151, 151);
+  width: 250px;
+  text-align: center;
+}
+
+.function-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(83, 173, 112);
+  height: 85vh;
+  color: white;
+  margin-bottom: 9vh;
+}
+
+.function-sub-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  color: white;
+  margin-left: 13vw;
+  width: 450px;
+}
+
+.function-horizontal-line {
+  border: 2px solid white;
+}
+
+.function {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.function-tag {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.artist-sub-container {
+  margin: 10vh 13vw 0 0;
+}
+
+.artist-profile-pic {
+  height: 62vh;
+}
+
+.white-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -600px;
+}
+
+.white-icon {
+  max-width: 10vw;
+  height: auto;
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .icon-container {
+    margin: 0 20px;
+  }
+
+  .headline {
+    font-size: 3rem;
+  }
+
+  .function-sub-container {
+    margin-left: 10vw;
+  }
+
+  .function-sub-container div {
+    width: 385px;
+  }
+
+  .function {
+    margin-top: 25px;
+  }
+
+  .function-tag {
+    max-width: 300px;
+    margin-top: 25px;
+  }
+
+  .artist-sub-container {
+    margin: 10vh 10vw 0 0;
+  }
+
+  .artist-profile-pic {
+    height: 61vh;
+  }
+
+  .white-icon-container {
+    margin-top: -500px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1000px) {
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .icon {
+    height: 60px;
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  .feature {
+    font-size: 2.3rem;
+    margin-top: 10px;
+  }
+
+  .feature-tag {
+    width: 200px;
+  }
+
+  .function-container {
+    height: 80vh;
+  }
+
+  .function-sub-container {
+    margin-left: 7vw;
+  }
+
+  .function-sub-container div {
+    width: 295px;
+  }
+
+  .function {
+    font-size: 2.3rem;
+  }
+
+  .function-tag {
+    font-size: 1.8rem;
+  }
+
+  #headline {
+    font-size: 2.3rem;
+  }
+
+  .artist-sub-container {
+    margin-right: 7vw;
+  }
+
+  .artist-profile-pic {
+    height: 60vh;
+  }
+
+  .white-icon-container {
+    display: none;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1000px) {
+}
